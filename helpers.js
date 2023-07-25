@@ -11,16 +11,16 @@ function renderStep(step, options) {
     {
       name: 'authorize',
       screenId: 'authorize-screen',
-      title: 'Authorization Request',
+      title: 'Jhonny Walker Kiosk',
       description:
-        'In this step, the user would like to start streaming content from AuthU TV on their smart TV. Typically, they would trigger some action on their TV, like installing an AuthU TV app, and would be presented with a screen that may look as follows. Once the user hits the <b>Authorize</b> button, they will initiate a device authorization transaction via the <code>/oauth/device/code</code> endpoint on their tenant.'
+        ''
     },
     {
       name: 'exchange',
       screenId: 'exchange-screen',
-      title: 'Token Request',
+      title: 'Jhonny Walker Kiosk',
       description:
-        "In this step, the user is prompted to authorize the device by navigating to the tenant's <code>/activate</code> endpoint and entering the user code displayed on the smart TV or, alternatively, scanning the QR code which would automatically input the user code via the <code>verification_uri_complete</code>. In the background, the smart TV is polling the tenant's <code>/oauth/token</code> endpoint to exchange the device code for an access token and, optionally, a refresh token."
+        ""
     },
     {
       name: 'complete',
