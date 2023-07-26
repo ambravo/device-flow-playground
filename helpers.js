@@ -11,14 +11,14 @@ function renderStep(step, options) {
     {
       name: 'authorize',
       screenId: 'authorize-screen',
-      title: 'Jhonny Walker Kiosk',
+      title: 'Johnnie Walker Kiosk',
       description:
         ''
     },
     {
       name: 'exchange',
       screenId: 'exchange-screen',
-      title: 'Jhonny Walker Kiosk',
+      title: 'Johnnie Walker Kiosk',
       description:
         ""
     },
