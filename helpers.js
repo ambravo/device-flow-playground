@@ -139,6 +139,12 @@ function renderStep(step, options) {
         ? ', ' + options.userInfo.nickname
         : ''
     }!`
+
+    document.getElementById("metadata").innerHTML = `
+    You have: <b>${options.userInfo["https://demo.okta.com/user_metadata"].loyalty_points}</b> points.<br>
+    Enjoy your Johnnie Walker in ${options.userInfo["https://demo.okta.com/user_metadata"].last_login_city}, ${options.userInfo["https://demo.okta.com/user_metadata"].last_login_country}, !`
+
+
   }
 
   document.querySelectorAll('pre code').forEach((block) => {

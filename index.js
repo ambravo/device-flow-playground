@@ -126,8 +126,8 @@ document.getElementById('start-btn').addEventListener('click', () => {
 document.getElementById('configure-section').style.display = 'none'
 renderStep('authorize')
 // Wait 3 seconds... then requestAuthorization
-setTimeout(() => {
-  requestAuthorization()
-}, 3000)
+// setTimeout(() => {
+//   requestAuthorization()
+// }, 3000)
 
   
